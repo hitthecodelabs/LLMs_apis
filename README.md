@@ -16,7 +16,7 @@ This repository contains implementations of APIs for popular Large Language Mode
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/LLMs_apis.git
+git clone https://github.com/hitthecodelabs/LLMs_apis.git
 cd LLMs_apis
 ```
 
