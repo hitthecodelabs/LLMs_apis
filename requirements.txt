@@ -1,0 +1,5 @@
+anthropic
+meta-ai-api
+openai
+python-dotenv
+requests
