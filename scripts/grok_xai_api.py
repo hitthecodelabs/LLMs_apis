@@ -1,3 +1,6 @@
+# In your terminal, first run:
+# pip install openai
+
 import os
 from openai import OpenAI
 
@@ -14,6 +17,7 @@ completion = client.chat.completions.create(
     model="grok-2-vision-1212",
     messages=[
         {"role": "system", "content": "You are Grok, a chatbot inspired by the Hitchhikers Guide to the Galaxy."},
+        # {"role": "user", "content": "What is the meaning of life, the universe, and everything?"},
         {"role": "user", "content": prompt},
     ],
 )
