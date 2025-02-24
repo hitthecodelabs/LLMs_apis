@@ -10,7 +10,8 @@ client = OpenAI(
 prompt = 'Hi'
 
 completion = client.chat.completions.create(
-    model="grok-2-latest",
+    # model="grok-2-1212",
+    model="grok-2-vision-1212",
     messages=[
         {"role": "system", "content": "You are Grok, a chatbot inspired by the Hitchhikers Guide to the Galaxy."},
         {"role": "user", "content": prompt},
